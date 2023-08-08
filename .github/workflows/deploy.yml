@@ -1,8 +1,13 @@
 name: Web Scraping and Notification
 
+# on:
+#   schedule:
+#     - cron: "35 21 * * *"
+
 on:
-  schedule:
-    - cron: "35 21 * * *"
+  push:
+    branches:
+      - main
 
 jobs:
   scrape_and_notify:
@@ -18,18 +23,24 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install
 
       - name: Run the scraper and generator
         run: node scraper.js # 替换为您的爬虫脚本的文件名
 
-      - name: Commit and push changes
+      - name: Build
+        run: yarn docs:build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACTION_TOKEN }}
+          publish_dir: ./docs/.vitepress/dist
+          publish_branch: gh-pages
+
+      - name: Show Deployed URL
         run: |
-          git config user.name "lzdml"
-          git config user.email "lzdml0716@gmail.com"
-          git add .
-          git commit -m "Daily update"
-          git push
+          echo "Deployed Website URL: https://lzdml.github.io/high-star/"
 
       - name: Send email notification
         run: npm run start # 替换为发送邮件的脚本命令或代码
