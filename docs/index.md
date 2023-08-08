@@ -3,7 +3,7 @@ layout: home
 
 hero:
   image:
-    src: /logo.png
+    src: /high-star/logo.png
     alt: "网页的logo"
   name: GITHUB 技术热度
   text: 每日最新, star最多的技术
