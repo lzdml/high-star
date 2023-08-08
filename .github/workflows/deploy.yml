@@ -2,7 +2,7 @@ name: Web Scraping and Notification
 
 on:
   schedule:
-    - cron: "33 21 * * *"
+    - cron: "35 21 * * *"
 
 jobs:
   scrape_and_notify:
