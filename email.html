@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Envelope</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .envelope {
+        width: 300px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      .envelope::before {
+        content: "";
+        width: 100%;
+        height: 50%;
+        background-color: #f0f0f0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        z-index: -1;
+      }
+
+      .envelope-header {
+        padding: 20px;
+        text-align: center;
+        background-color: #3498db;
+        color: #fff;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .envelope-content {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .verification-code {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .weather-info {
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="envelope">
+      <div class="envelope-header">
+        <h2>Confidential Mail</h2>
+      </div>
+      <div class="envelope-content">
+        <div class="verification-code">Your verification code: 123456</div>
+        <div class="weather-info">
+          Today's weather: Sunny with a high of 25°C
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

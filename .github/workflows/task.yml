@@ -1,0 +1,40 @@
+name: Web Scraping and Notification
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+
+jobs:
+  scrape_and_notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run the scraper and generator
+        run: node scraper.js # 替换为您的爬虫脚本的文件名
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "lzdml"
+          git config user.email "lzdml0716@gmail.com"
+          git add .
+          git commit -m "Daily update"
+          git push
+
+      - name: Send email notification
+        run: npm run start # 替换为发送邮件的脚本命令或代码
+        env:
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_SEND_TO: ${{ secrets.SMTP_SEND_TO }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
