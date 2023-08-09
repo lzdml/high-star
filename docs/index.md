@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: OPEN
-      link: /statistics/
+      link: /statistics/2023-08-09
     - theme: alt
       text: github
       link: https://github.com/lzdml/time-task
