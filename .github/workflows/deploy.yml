@@ -1,9 +1,8 @@
 name: Web Scraping and Notification
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "10 3 * * *" # 在每天上午 11 点触发
 
 jobs:
   scrape_and_notify:
