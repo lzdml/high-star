@@ -18,7 +18,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vue/server-renderer": "3",
     "vitepress": "1.0.0-alpha.9",
     "vue": "^3.2.37"
   },

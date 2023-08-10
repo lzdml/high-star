@@ -22,9 +22,6 @@ dependencies:
     version: 6.9.4
 
 devDependencies:
-  '@vue/server-renderer':
-    specifier: '3'
-    version: 3.2.37(vue@3.2.37)
   vitepress:
     specifier: 1.0.0-alpha.9
     version: 1.0.0-alpha.9(@algolia/client-search@4.19.1)(search-insights@2.7.0)

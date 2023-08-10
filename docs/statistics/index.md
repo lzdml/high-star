@@ -1,0 +1,353 @@
+### GitHub Trending2023年8月10日星期四上午11点15分
+
+---
+
+::: info  1.  [cypress-io / cypress](https://github.com/login?return_to=%2Fcypress-io%2Fcypress)
+
+---
+
+**desc:**`Fast, easy and reliable testing for anything that runs in a browser.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`44,467`-----------**fork:**`2,972`
+
+:::
+
+---
+
+::: info  2.  [microsoft / Web-Dev-For-Beginners](https://github.com/login?return_to=%2Fmicrosoft%2FWeb-Dev-For-Beginners)
+
+---
+
+**desc:**`24 Lessons, 12 Weeks, Get Started as a Web Developer`
+
+---
+
+**language:**`JavaScript`-----------**star:**`73,848`-----------**fork:**`11,569`
+
+:::
+
+---
+
+::: info  3.  [mapbox / mapbox-gl-js](https://github.com/login?return_to=%2Fmapbox%2Fmapbox-gl-js)
+
+---
+
+**desc:**`Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL`
+
+---
+
+**language:**`JavaScript`-----------**star:**`10,089`-----------**fork:**`2,136`
+
+:::
+
+---
+
+::: info  4.  [MHSanaei / 3x-ui](https://github.com/login?return_to=%2FMHSanaei%2F3x-ui)
+
+---
+
+**desc:**`Xray panel supporting multi-protocol multi-user expire day & traffic & ip limit (Vmess & Vless & Trojan & ShadowSocks)`
+
+---
+
+**language:**`JavaScript`-----------**star:**`2,578`-----------**fork:**`472`
+
+:::
+
+---
+
+::: info  5.  [facebook / lexical](https://github.com/login?return_to=%2Ffacebook%2Flexical)
+
+---
+
+**desc:**`Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`15,121`-----------**fork:**`1,159`
+
+:::
+
+---
+
+::: info  6.  [Kong / insomnia](https://github.com/login?return_to=%2FKong%2Finsomnia)
+
+---
+
+**desc:**`The open-source, cross-platform API client for GraphQL, REST, WebSockets and gRPC.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`29,944`-----------**fork:**`1,570`
+
+:::
+
+---
+
+::: info  7.  [lucide-icons / lucide](https://github.com/login?return_to=%2Flucide-icons%2Flucide)
+
+---
+
+**desc:**`Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`5,486`-----------**fork:**`246`
+
+:::
+
+---
+
+::: info  8.  [sudheerj / javascript-interview-questions](https://github.com/login?return_to=%2Fsudheerj%2Fjavascript-interview-questions)
+
+---
+
+**desc:**`List of 1000 JavaScript Interview Questions`
+
+---
+
+**language:**`JavaScript`-----------**star:**`17,188`-----------**fork:**`5,012`
+
+:::
+
+---
+
+::: info  9.  [DataDog / dd-trace-js](https://github.com/login?return_to=%2FDataDog%2Fdd-trace-js)
+
+---
+
+**desc:**`JavaScript APM Tracer`
+
+---
+
+**language:**`JavaScript`-----------**star:**`506`-----------**fork:**`262`
+
+:::
+
+---
+
+::: info  10.  [thisjam / sd-webui-oldsix-prompt](https://github.com/login?return_to=%2Fthisjam%2Fsd-webui-oldsix-prompt)
+
+---
+
+**desc:**  ``
+
+---
+
+**language:**`JavaScript`-----------**star:**`338`-----------**fork:**`21`
+
+:::
+
+---
+
+::: info  11.  [gchq / CyberChef](https://github.com/login?return_to=%2Fgchq%2FCyberChef)
+
+---
+
+**desc:**`The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis`
+
+---
+
+**language:**`JavaScript`-----------**star:**`22,109`-----------**fork:**`2,634`
+
+:::
+
+---
+
+::: info  12.  [iamkun / dayjs](https://github.com/sponsors/iamkun)
+
+---
+
+**desc:**`⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API`
+
+---
+
+**language:**`JavaScript`-----------**star:**`43,784`-----------**fork:**`2,212`
+
+:::
+
+---
+
+::: info  13.  [OptimalBits / bull](https://github.com/login?return_to=%2FOptimalBits%2Fbull)
+
+---
+
+**desc:**`Premium Queue package for handling distributed jobs and messages in NodeJS.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`14,278`-----------**fork:**`1,468`
+
+:::
+
+---
+
+::: info  14.  [vanjs-org / van](https://github.com/login?return_to=%2Fvanjs-org%2Fvan)
+
+---
+
+**desc:**`🍦VanJS: World's smallest reactive UI framework. Incredibly Powerful, Insanely Small - Everyone can build a useful UI app in an hour`
+
+---
+
+**language:**`JavaScript`-----------**star:**`2,012`-----------**fork:**`49`
+
+:::
+
+---
+
+::: info  15.  [badges / shields](https://github.com/login?return_to=%2Fbadges%2Fshields)
+
+---
+
+**desc:**`Concise, consistent, and legible badges in SVG and raster format`
+
+---
+
+**language:**`JavaScript`-----------**star:**`20,657`-----------**fork:**`5,429`
+
+:::
+
+---
+
+::: info  16.  [paradite / frontend-encyclopedia](https://github.com/login?return_to=%2Fparadite%2Ffrontend-encyclopedia)
+
+---
+
+**desc:**`Frontend Encyclopedia`
+
+---
+
+**language:**`JavaScript`-----------**star:**`70`-----------**fork:**`22`
+
+:::
+
+---
+
+::: info  17.  [goldbergyoni / javascript-testing-best-practices](https://github.com/login?return_to=%2Fgoldbergyoni%2Fjavascript-testing-best-practices)
+
+---
+
+**desc:**`📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (July 2023)`
+
+---
+
+**language:**`JavaScript`-----------**star:**`21,919`-----------**fork:**`1,939`
+
+:::
+
+---
+
+::: info  18.  [infinitered / nsfwjs](https://github.com/login?return_to=%2Finfinitered%2Fnsfwjs)
+
+---
+
+**desc:**`NSFW detection on the client-side via TensorFlow.js`
+
+---
+
+**language:**`JavaScript`-----------**star:**`6,870`-----------**fork:**`488`
+
+:::
+
+---
+
+::: info  19.  [Mintplex-Labs / anything-llm](https://github.com/login?return_to=%2FMintplex-Labs%2Fanything-llm)
+
+---
+
+**desc:**`A full-stack application that turns any documents into an intelligent chatbot with a sleek UI and easier way to manage your workspaces.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`2,163`-----------**fork:**`262`
+
+:::
+
+---
+
+::: info  20.  [louislam / uptime-kuma](https://github.com/sponsors/louislam)
+
+---
+
+**desc:**`A fancy self-hosted monitoring tool`
+
+---
+
+**language:**`JavaScript`-----------**star:**`36,574`-----------**fork:**`3,181`
+
+:::
+
+---
+
+::: info  21.  [windmill-labs / windmill](https://github.com/login?return_to=%2Fwindmill-labs%2Fwindmill)
+
+---
+
+**desc:**`Open-source developer platform to turn scripts into workflows and UIs. Open-source alternative to Airplane and Retool.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`5,580`-----------**fork:**`169`
+
+:::
+
+---
+
+::: info  22.  [webpack / webpack](https://github.com/login?return_to=%2Fwebpack%2Fwebpack)
+
+---
+
+**desc:**`A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`63,382`-----------**fork:**`8,819`
+
+:::
+
+---
+
+::: info  23.  [alyssaxuu / flowy](https://github.com/sponsors/alyssaxuu)
+
+---
+
+**desc:**`The minimal javascript library to create flowcharts ✨`
+
+---
+
+**language:**`JavaScript`-----------**star:**`10,532`-----------**fork:**`906`
+
+:::
+
+---
+
+::: info  24.  [john-smilga / node-express-course](https://github.com/login?return_to=%2Fjohn-smilga%2Fnode-express-course)
+
+---
+
+**desc:**  ``
+
+---
+
+**language:**`JavaScript`-----------**star:**`2,923`-----------**fork:**`3,048`
+
+:::
+
+---
+
+::: info  25.  [facebook / create-react-app](https://github.com/login?return_to=%2Ffacebook%2Fcreate-react-app)
+
+---
+
+**desc:**`Set up a modern web app by running one command.`
+
+---
+
+**language:**`JavaScript`-----------**star:**`100,511`-----------**fork:**`26,612`
+
+:::
+
+---

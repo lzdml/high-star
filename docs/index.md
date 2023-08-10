@@ -21,7 +21,10 @@ features:
     details: vitepress-1.0.0-alpha.9 | vue-^3.2.37
   - icon: 💯
     title: dependencies
-    details: nodemailer-^6.9.4
+    details: nodemailer(^6.9.4) | axios(^1.3.4) | cheerio(1.0.0-rc.12) | moment(^2.29.4) | node-cron(^3.0.2) | nodemailer(^6.9.4)
+  - icon: 🔀
+    title: 需要准备的东西
+    details: 除了上面的依赖, 还需要你会github workflow, github pages
 ---
 
 <style>
