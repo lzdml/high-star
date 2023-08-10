@@ -1,13 +1,9 @@
 name: Web Scraping and Notification
 
 on:
-  schedule:
-    - cron: "30 04 * * *"
-
-# on:
-#   push:
-#     branches:
-#       - main
+  push:
+    branches:
+      - main
 
 jobs:
   scrape_and_notify:
