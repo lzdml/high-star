@@ -2,7 +2,7 @@ name: Web Scraping and Notification
 
 on:
   schedule:
-    - cron: "20 3 * * *" # 在每天上午 11 点触发
+    - cron: "32 3 * * *" # 在每天上午 11 点触发 UTC时间
 
 jobs:
   scrape_and_notify:
