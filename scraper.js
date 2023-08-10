@@ -3,7 +3,6 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const moment = require("moment");
 const path = require("path");
-const cron = require("node-cron");
 const updateSidebarFile = require("./updateSidebar");
 
 require("moment/locale/zh-cn");
@@ -12,6 +11,31 @@ moment.locale("zh-cn");
 const trendingUrl = "https://github.com/trending/javascript?since=daily";
 
 axios.default.timeout = 10000;
+
+(function init() {
+  updateSidebarFile((err, today) => {
+    if (err) {
+      console.log("err触发 :>> ", err);
+    } else {
+      axios
+        .get(trendingUrl)
+        .then((response) => {
+          // 解析 HTML 页面，提取项目信息
+          const projectList = parseProjectsFromHtml(response.data);
+          const markdown = generateMarkdown(projectList);
+          fs.writeFileSync(
+            path.join(__dirname, `/docs/statistics/${today}.md`),
+            markdown,
+            "utf-8"
+          );
+          console.log("Markdown file generated successfully.");
+        })
+        .catch((error) => {
+          console.error("Error fetching data:", error);
+        });
+    }
+  });
+})();
 
 function parseProjectsFromHtml(html) {
   const $ = cheerio.load(html);
@@ -70,35 +94,4 @@ function generateMarkdown(projects) {
   });
 
   return markdown;
-}
-
-const task = cron.schedule("0 11 * * *", init, {
-  scheduled: true,
-  timezone: "Asia/Shanghai", // 设置时区为杭州
-});
-
-function init() {
-  updateSidebarFile((err, today) => {
-    if (err) {
-      console.log("err触发 :>> ", err);
-    } else {
-      console.log("chufa");
-      axios
-        .get(trendingUrl)
-        .then((response) => {
-          // 解析 HTML 页面，提取项目信息
-          const projectList = parseProjectsFromHtml(response.data);
-          const markdown = generateMarkdown(projectList);
-          fs.writeFileSync(
-            path.join(__dirname, `/docs/statistics/${today}.md`),
-            markdown,
-            "utf-8"
-          );
-          console.log("Markdown file generated successfully.");
-        })
-        .catch((error) => {
-          console.error("Error fetching data:", error);
-        });
-    }
-  });
 }
