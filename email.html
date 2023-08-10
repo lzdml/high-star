@@ -80,5 +80,22 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const info = document.querySelector(".weather-info");
+
+      fetch(`http://localhost:3000`)
+        .then((response) => {
+          // 检查响应状态
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log('data :>> ', data);
+          info.innerHTML += data.data
+        });
+    </script>
   </body>
 </html>

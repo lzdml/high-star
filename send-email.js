@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
 const mailOptions = {
   from: "dzlkuboy@163.com", // 发件人邮箱
   to: process.env.SMTP_SEND_TO, // 收件人邮箱
-  subject: "定时邮件测试", // 邮件主题
+  subject: "定时邮件测试标题", // 邮件主题
   // text: "这是一封定时发送的测试邮件。", // 邮件内容
   html: fs.createReadStream(path.resolve(__dirname, "email.html")),
 };
