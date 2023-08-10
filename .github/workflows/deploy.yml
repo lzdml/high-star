@@ -2,7 +2,7 @@ name: Web Scraping and Notification
 
 on:
   schedule:
-    - cron: "32 3 * * *" # 在每天上午 11 点触发 UTC时间
+    - cron: "40 3 * * *" # 在每天上午 11 点触发 UTC时间
 
 jobs:
   scrape_and_notify:
@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run the scraper and generator
+      - name: Run the scraper and generator # name后面的是当前任务的描述, 不需要管
         run: node scraper.js # 替换为您的爬虫脚本的文件名
 
       - name: Build
